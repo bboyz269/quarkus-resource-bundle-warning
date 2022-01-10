@@ -1,0 +1,9 @@
+quarkus:
+  datasource:
+    devservices:
+      enabled: true
+    db-kind: mysql
+  package:
+    type: native
+  native:
+    container-build: true
